@@ -11,7 +11,7 @@ Mostly tested and trained for what I play when I DJ (House-related, NuDisco, hou
 
 ![image](https://github.com/troyhacks/AutoMusic/assets/5659019/87fee816-6d96-43a7-b4e5-867f64416b3d)
 
-The system captures a log of the files as it suimulates playback, and saves some of the mislabeled segments for later retraining.
+The system captures a log of the files as it suimulates playback, and saves some of the mislabeled segments for later retraining. A bad result later is actually a good training result, as the system will learn to generalize better - I think.
 
 The current model seems to generalize pretty well - I have tested a few songs at every possible 3-second sample in the song (across 3000 offsets) and the analysis is pretty good at at recognizing a label even when alignment varies.
 
