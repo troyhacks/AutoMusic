@@ -13,4 +13,8 @@ Mostly tested and trained for what I play when I DJ (House-related, NuDisco, hou
 
 The system captures a log of the files as it suimulates playback, and saves some of the mislabeled segments for later retraining.
 
+The current model seems to generalize pretty well - I have tested a few songs at every possible 3-second sample in the song (across 3000 offsets) and the analysis is pretty good at at recognizing a label even when alignment varies.
+
+![image](https://github.com/troyhacks/AutoMusic/assets/5659019/443d6209-eb2f-4bc0-8a83-5c7271d5d688)
+
 A huge thanks to [Dylan Jones](https://github.com/dylanljones) for [PyRekordBox](https://github.com/dylanljones/pyrekordbox) upon which all the labeling is derived. 
