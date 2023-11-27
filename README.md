@@ -17,4 +17,8 @@ The current model seems to generalize pretty well - I have tested a few songs at
 
 ![image](https://github.com/troyhacks/AutoMusic/assets/5659019/443d6209-eb2f-4bc0-8a83-5c7271d5d688)
 
+Training testing continues, and I have some ideas for scanning a file more quickly than taking 3000*seconds_of_length/3 samples to figure out how well it's generalizing - because it seems best to train on the "worst" offsets rather than random offsets.
+
+I will repeat that I'm basically making very vaguely educated guesses at this point - but I wanted to release something with the hope that prehaps more eyeballs will make it better.
+
 A huge thanks to [Dylan Jones](https://github.com/dylanljones) for [PyRekordBox](https://github.com/dylanljones/pyrekordbox) upon which all the labeling is derived. 
